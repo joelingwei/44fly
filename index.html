@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="keywords" content=" ">
+		<meta name="description" content=" ">
+		<title>成都四季飞扬网络技术有限公司官方网站</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="header">
+			<!--顶部logo-->
+			<div class="logo"><img src="images/logo.jpg" /></div>
+			<!-- end 顶部logo-->
+			<!--导航栏-->
+			<div class="nav">
+				<ul id="nav">
+					<li><a href="index.html"><span class="cursor">首页</span></a></li>
+					<li><a href="school.html"><span>智慧校园</span></a></li>
+					<li><a href="case.html"><span>经典案例</span></a></li>
+					<li><a href="news.html"><span>公司动态</span></a></li>
+					<li><a href="join.html"><span>加入我们</span></a></li>
+					<li><a href="contact.html"><span>联系我们</span></a></li>
+				</ul>
+			</div>
+			<!--end 导航栏-->
+		</div>
+		<!--大图轮播-->
+		<div id="banner" class="flexslider">
+			<!--<img src="images/home/banner01.png" />-->
+			<ul class="slides">
+				<li style="background:url(images/home/banner01.png) 50% 0 no-repeat;background-size: cover;"></li>
+				<li style="background:url(images/school/school_banner.jpg) 50% 0 no-repeat;background-size: cover;"></li>
+				<li style="background:url(images/case/case_banner.jpg) 50% 0 no-repeat;background-size: cover;"></li>
+				<li style="background:url(images/news/news_banner.jpg) 50% 0 no-repeat;background-size: cover;"></li>
+				<li style="background:url(images/contact_banner.jpg) 50% 0 no-repeat;background-size: cover;"></li>
+			</ul>
+		</div>
+		<!--end 大图轮播-->
+		<div id="main">
+			<!--案例-->
+			<div class="cases">
+				<div class="title">
+					<p>——————Classic Cases—————<p>
+					<p>经典案例</p>
+				</div>
+				<div class="cases_text">
+					<img src="images/home/zhangda_home.png" />
+				</div>
+				<div class="line"></div>
+				<div class="text">
+					<img src="images/home/tyzy_home.png" />
+				</div>
+				<div class="line"></div>
+				<div class="cases_text">
+					<img src="images/home/tgs_home.jpg" />
+				</div>
+				<div class="case_more"><a href="#"><span>more</span></a></div>
+			</div>
+			<!--end 案例-->
+			<!--合作伙伴-->
+			<div class="partner">
+				<div class="title">
+					<p>——————Cooperative Partner—————<p>
+					<p>合作伙伴</p>
+				</div>
+				<div class="partner_text">
+					<ul>
+						<li><a href="#"><img src="images/home/zhangda_logo.jpg" /></a></li>
+						<li><a href="#"><img src="images/home/wangbao_logo.jpg" /></a></li>
+						<li><a href="#"><img src="images/home/kongjian_logo.jpg" /></a></li>
+						<li><a href="#"><img src="images/home/yunyou_logo.jpg" /></a></li>
+						<li><a href="#"><img src="images/home/yunshang_logo.jpg" /></a></li>
+						<li><a href="#"><img src="images/home/liuliu_logo.jpg" /></a></li>
+						<li><a href="#"><img src="images/home/yingyong_logo.jpg" /></a></li>
+						<li><a href="#"><img src="images/home/city_logo.jpg" /></a></li>
+						<li><a href="#"><img src="images/home/tgs_logo.jpg" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--end 合作伙伴-->
+		</div>
+		<!--footer-->
+		<div id="footer">© 2015 TIMESPIONEER. All rights reserved.</div>
+		<!--调用轮播js-->
+		<script language="javascript" type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script>
+			$(function(){
+				$('.flexslider').flexslider({
+					directionNav: true,
+					pauseOnAction: false
+				});
+			});
+		</script>
+		<!--end 调用轮播js-->
+	</body>
+</html>
